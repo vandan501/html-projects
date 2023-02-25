@@ -1,1 +1,1 @@
-# html-projects
+i convert our clg timetable into this and after make this i boost my confidence ...check the output and you will learn table...thead...tbody...tr...th...td and also cellpadding...cellspacing...rowspan...colspan
