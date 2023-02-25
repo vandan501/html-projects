@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    color: wheat;
+    background-color:  #34568B;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkslategrey;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: beige;
+text-align: center;
+padding: 18px 25px;
+text-decoration: none;
+}
+a:hover{
+    background-color:black;
+    text-shadow: 10px;
+}
+h1{
+    align-items: center;
+}
+
+</style>
