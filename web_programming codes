@@ -1,0 +1,1150 @@
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+1. Write HTML code for the table. 
+a. ClassTimeTable. 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>CE-6-B TT</title> 
+ <link rel="stylesheet" href="style.css"> 
+ <style> 
+ * { 
+ font-family: 'Times New Roman', Times, serif; 
+ text-align: center; 
+ justify-content: center; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <table border="1" cellpadding="3px" cellspacing="px" align="center"> 
+ <thead> 
+ <tr> 
+ <th colspan="8">SAL EDUCATION CAMPUS</th> 
+ </tr> 
+ <tr> 
+ <th colspan="8">SAL INSTITUTE OF TECHNOLOGY & ENGINEERING RESEARCH 
+ </th> 
+ </tr> 
+ <tr> 
+ <th colspan="8">CLASS TIME TABLE</th> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ </tr> 
+ <tr> 
+ <th colspan="4">SEMESTER: 6th CE B</th> 
+ <th colspan="4"> W.E.F.: 06/02/2023 
+ </th> 
+ </tr> 
+ <tr> 
+ <th colspan="4">BRANCH: COMPUTER ENGINEERING</th> 
+ <th colspan="4">CLASS ROOM NO: 209</th> 
+ </tr> 
+ <tr> 
+ <th>TIME</th> 
+ <th>MONDAY </th> 
+ <th>TUESDAY </th> 
+ <th>WEDNESDAY </th> 
+ <th>THURSDAY </th> 
+ <th>FRIDAY</th> 
+ <th> SATURDAY</th> 
+ </tr> 
+ </thead> 
+ <tbody> 
+ <tr> 
+ <th>08:30 to 09:25</th> 
+ <td>IPDC(HB) </td> 
+ <td>TOC(NM) </td> 
+ <td>LIBRARY </td> 
+ <td>TOC(NM)</td> 
+ <td> LIBRARY</td> 
+ <td rowspan="4"> DE-IIB</td> 
+ </tr> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <tr> 
+ <th>09:25 to 10:20</th> 
+ <td>TOC(NM) </td> 
+ <td>MPI(PT) </td> 
+ <td>IPDC(HB)</td> 
+ <td> WP(PD) </td> 
+ <td>TOC-T(NM)</td> 
+ </tr> 
+ <tr> 
+ <th>10.20 to 10.30</th> 
+ <td colspan="5"> </td> 
+ </tr> 
+ <tr> 
+ <th>10:30 to 11:30</th> 
+ <td rowspan="2">B1: WP(DM) (221A) <br> 
+ B2:WP(LK) (221A) <br> 
+ B3:MPI(PT) (249)</td> 
+ <td>WP(LK) </td> 
+ <td>TOC(NM) </td> 
+ <td rowspan="2">6B1: MPI(EV) (249) 
+ <br> 6B2:MPI(PT)(249) 
+ <br> 6B3:WP(LK) (221C) 
+ </td> 
+ <td>WP(LK)</td> 
+ </tr> 
+ <tr> 
+ <th>11:30 to 12:30 
+ </th> 
+ <td>AB-IOT(PD)(210)/ <br> 
+ AB-DV(VS)(209) </td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <td>MPI(EV)</td> 
+ <td>AJP(DM)/ <br> 
+ SS(VJ)(201) 
+ </td> 
+ <td></td> 
+ </tr> 
+ <tr> 
+ <th>12:30 to 01:00</th> 
+ <td colspan="6"></td> 
+ </tr> 
+ <tr> 
+ <th>01:00 to 02:00</th> 
+ <td>MPI(EV) </td> 
+ <td rowspan="2">B1: IOT(PD) (219) <br> 
+ B2:IOT(NM) (218) <br> 
+ B3:DV(VS) (221B) 
+ </td> 
+ <td> AJP(DM)/ 
+ SS(VJ)(201) 
+ </td> 
+ <td>AJP(DM)/ 
+ SS(VJ)(201)</td> 
+ <td rowspan="2"> 
+ B1: AJP(KKR) (216) <br> 
+ B2:AJP(DM) (216) <br> 
+ B3:AJP(KHH) (218)</td> 
+ <td></td> 
+ </tr> 
+ <tr> 
+ <th>02:00 to 03:00</th> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <td>AB-IOT(PD)(210)/ <br> 
+ AB-DV(VS)(209) </td> 
+ <td>6BC-IOT(PD)(203) 
+ </td> 
+ <td>BC-IOT(PD)(203)</td> 
+ <td></td> 
+ </tr> 
+ <tr> 
+ <td colspan="8"> </td> 
+ </tr> 
+ <tr> 
+ <th colspan="2">Subject Code </th> 
+ <th colspan="3">Subject Name </th> 
+ <th colspan="3">Faculty Name</th> 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160001 </td> 
+ <td colspan="3">Design Engineering II B(DE-IIB) 
+ </td> 
+ <td colspan="3">Respective Internal Guide</td> 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160003 </td> 
+ <td colspan="3">Integrated Personality Development Course (IPDC)</td> 
+ <td colspan="3"> Prof. Harshit Bhavsar(HB)</td> 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160704 </td> 
+ <td colspan="3">Theory of Computation(TOC) </td> 
+ <td colspan="3">Prof. Neha Minocha (NM)</td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160707 
+ </td> 
+ <td colspan="3">Advanced Java Programming(AJP) 
+ </td> 
+ <td colspan="3"> Prof Krishna Hingrajiya(KHH),<br> Prof Devshri Mehta (DM), <br> 
+ Dr. Khyati Rami(KKR)</td> 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160712 </td> 
+ <td colspan="3">Microprocessor and Interfacing(MPI) </td> 
+ <td colspan="3">Prof. Ekta Vasani(EV),<br>Prof. Pooja Thakar(PT)</td> 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160713 </td> 
+ <td colspan="3">Web Programming(WP) 
+ </td> 
+ <td colspan="3">Prof Devshri Mehta (DM), <br>Prof. Pooja Dutta (PD),<br> 
+ Prof. Lipi Kothari(LK)</td> 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160715 </td> 
+ <td colspan="3">System Software(SS) </td> 
+ <td colspan="3">Prof. Vaibhavi Joshi(VJ</td> 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160716 </td> 
+ <td colspan="3">IOT and applications(IOT) </td> 
+ <td colspan="3">Prof. Pooja Dutta (PD),<br> Prof. Neha Minocha (NM)</td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ </tr> 
+ <tr> 
+ <td colspan="2">3160717 
+ </td> 
+ <td colspan="3">Data Visualization(DV) </td> 
+ <td colspan="3">Prof. V. Saganya (VS)</td> 
+ </tr> 
+ </tbody> 
+ </table> 
+</body> 
+</html> 
+Output:
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+b. Result TimeTable. 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>p-2</title> 
+ <style> 
+ *{ 
+ font-size: 25px; 
+ } 
+ .heading{ 
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ } 
+ h1{ 
+ font-size: 55px; 
+ } 
+ tr,td{ 
+ text-align: center; 
+ } 
+ .container{ 
+ display: flex; 
+ flex-flow: column; 
+ gap: 20px; 
+ } 
+ h2{ 
+ color: green; 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ } 
+ #personal{ 
+ background-color: skyblue; 
+ box-shadow: 0 0 10px 5px black; 
+ 
+ } 
+ </style> 
+</head> 
+<body> 
+ <center> 
+ <div class="container"> 
+ <div class="heading"> 
+ <img src="./gtulogo.png" alt="logo gtu"> <h1>Gujrat Technological University Ahmedabad</h1> 
+ </div> 
+ 
+ <div> 
+ <table border="1" cellpadding="15px" style="width: 1500px;" id="personal"> 
+ <tr > 
+ <th colspan="2">SEARCH RESULT</th> 
+ 
+ </tr> 
+ <tr> 
+ <th>NAME</th> 
+ <td>RAVAL VANDAN DHARMENDRABAI</td> 
+ </tr> 
+ <tr> 
+ <th>Enrollment No</th> 
+ <td>210670107501</td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ </tr> 
+ <tr collspan="4"> 
+ <th>Exam Seat No.</th> 
+ <td>210670107501&nbsp;&nbsp; 
+ <b>Declared on :</b> &nbsp;16 sep 2022 
+ </td> 
+ </tr> 
+ <tr> 
+ <th>Exam</th> 
+ <td>BE SEM-4 REGULAR(MAY 2022)</td> 
+ </tr> 
+ <tr> 
+ <th>Branch</th> 
+ <td>COMPUTER ENGINEERING</td> 
+ </tr> 
+ </table> 
+ </div> 
+ 
+ <div> 
+ <table border="1" style="width: 1500px;"> 
+ <tr> 
+ <th>Subject Code</th> 
+ <th>SUBJECT NAME</th> 
+ <th>ESE ABSENT</th> 
+ <th>Theory Grade <br>&nbsp; 
+ ESE &nbsp;&nbsp;&nbsp;&nbsp; PA &nbsp;&nbsp;&nbsp;&nbsp; 
+TOTAL&nbsp;&nbsp;&nbsp;&nbsp; 
+ </th> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <th>Practical Grade<br>&nbsp; 
+ ESE &nbsp;&nbsp;&nbsp;&nbsp; PA &nbsp;&nbsp;&nbsp;&nbsp; 
+TOTAL&nbsp;&nbsp;&nbsp;&nbsp;</th> 
+ <th>Subject Grade</th> 
+ </tr> 
+ <tr> 
+ <td>3140005</td> 
+ <td>Design Engineering 1 B</td> 
+ <td>-</td> 
+ <td>&nbsp; 
+ - &nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp;&nbsp; -
+&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ <td> 
+ &nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AA&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td>AA</td> 
+ </tr> 
+ <tr> 
+ <td>3140702</td> 
+ <td>Operating System</td> 
+ <td>-</td> 
+ <td> BB &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AB&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td> 
+ &nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AA&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td>AB</td> 
+ 
+ </tr> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <tr> 
+ <td>3140705</td> 
+ <td>Object Oriented Programming -I</td> 
+ <td>-</td> 
+ <td> BB &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AB&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td> 
+ &nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AA&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td>AB</td> 
+ </tr> 
+ <tr> 
+ <td>3140707</td> 
+ <td>Computer Organization & Architecture</td> 
+ <td>-</td> 
+ <td> BB &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AB&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td> 
+ &nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AA&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td>BB</td> 
+ </tr> 
+ <tr> 
+ <td>3140708</td> 
+ <td>Discrete Mathematics</td> 
+ <td>-</td> 
+ <td> BB &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AB&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ </td> 
+ <td> -- &nbsp;&nbsp;&nbsp;&nbsp; -- &nbsp;&nbsp;&nbsp;&nbsp; --
+&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td>BB</td> 
+ </tr> 
+ <tr> 
+ <td>3140709</td> 
+ <td>Principles of Economics and Management</td> 
+ <td>-</td> 
+ <td> BB &nbsp;&nbsp;&nbsp;&nbsp; AA &nbsp;&nbsp;&nbsp;&nbsp; 
+AB&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td> -- &nbsp;&nbsp;&nbsp;&nbsp; -- &nbsp;&nbsp;&nbsp;&nbsp; --
+&nbsp;&nbsp;&nbsp;&nbsp;</td> 
+ </td> 
+ <td>BC</td> 
+ </tr> 
+ </table> 
+ </div> 
+ <div> 
+ <table border="1" cellspacing="3px" cellpadding="15px"style="width: 1500px;" > 
+ <tr> 
+ <td>Current sem backlog: <b>0</b></td> 
+ <td>Total Backlog: <b>0</b></td> 
+ <td>SPI : <b>8.39</b></td> 
+ <td>CPI: <b>8.35</b></td> 
+ </tr> 
+ </table> 
+ </div> 
+<div> 
+ <table border="1" cellpadding="15" style="width: 1500px;"> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <tr> 
+ <td colspan="3"> 
+ <h2>Congratulation!! You Have <b>Passed</b>this exam</h2> 
+</td> 
+</tr> 
+</table> 
+</div> 
+</center> 
+</div> 
+</body> 
+</html> 
+Output:
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+2. Implement the HTML code for use of Form. 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Basic form</title> 
+</head> 
+<body> 
+ <center> 
+ <h1>Form Practical 2</h1> 
+ <fieldset> 
+ <table border="1" cellpadding="5px"> 
+ <legend> 
+ <h3>Dummy Form</h3> 
+ </legend> 
+ <form action=""> 
+ <tr> 
+ <td> <label for="fname">First Name</label></td> 
+ <td><input type="text" placeholder="Enter Your First Name"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="mname">Middle Name</label></td> 
+ <td><input type="text" placeholder="Enter Your Middle Name"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="lname">Last Name</label></td> 
+ <td><input type="text" placeholder="Enter Your Last Name"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="email">Your email address</label></td> 
+ <td><input type="email" placeholder="Enter Your Email address"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="password">select password</label></td> 
+ <td><input type="password" placeholder="Select Password"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="DOB">Date Of Birth</label></td> 
+ <td><input type="date"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="file">Upload Profile</label></td> 
+ <td><input type="file" name="profile"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="search">this is dummy search bar</label></td> 
+ <td><input type="search" name="search" placeholder="dummy search bar"></td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ </tr> 
+ <tr> 
+ <td><label for="color">Pick Your Fav Color</label></td> 
+ <td> 
+ <input type="color" name="color"> 
+ </td> 
+ </tr> 
+ <tr> 
+ <td> <label for="state-city">Select State and City</label></td> 
+ <td> 
+ <select name="state-city" id="state"> 
+ <optgroup> 
+ <option value="GUJARAT">GUJARAT</option> 
+ <option value="RAJASTHAN">RAJASTHAN</option> 
+ <option value="PANJAB">PANJAB</option> 
+ </optgroup> 
+ <optgroup> 
+ <option value="Ahmedabad">Ahmedabad</option> 
+ <option value="Kumbhalgadh">Kumbhalgadh</option> 
+ <option value="Chandigadh">Chandigadh</option> 
+ </optgroup> 
+ </select> 
+ </td> 
+ </tr> 
+ <tr> 
+ <td> <label for="tel">Contact number</label></td> 
+ <td><input type="tel" name="tel" placeholder="Enter Your Contact Number"></td> 
+ </tr> 
+ <tr> 
+ <td> <label for="gender">Select Gender</label></td> 
+ <td> Male <input type="radio" name="gender" value="male"> 
+ Female <input type="radio" name="gender" value="female"> 
+ Other <input type="radio" name="gender" value="other"> </td> 
+ </tr> 
+ <tr> 
+ <td> <label for="Address">Your Address</label></td> 
+ <td><textarea name="address" id="" cols="30" rows="10"></textarea></td> 
+ </tr> 
+ <tr> 
+ <td><label for="skills">Select your skills</label></td> 
+ <td>HTML<input type="checkbox" name="skills" value="HTML"> 
+ HTML5<input type="checkbox" name="skills" value="HTML5"> 
+ CSS<input type="checkbox" name="skills" value="CSS"> 
+ CSS3<input type="checkbox" name="skills" value="CSS3"> 
+ JAVASCRIPT<input type="checkbox" name="skills" value="JAVASCRIPT"> 
+ JAVA<input type="checkbox" name="skills" value="JAVA"> 
+ TAILWIND<input type="checkbox" name="skills" value="TAILWIND"> </td> 
+ </tr> 
+ <tr> 
+ <td colspan="2"><input type="datetime-local"></td> 
+ </tr> 
+ <tr> 
+ <td>Your work exp</td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <td><input type="range" max="90"></td> 
+ </tr> 
+ <tr> 
+ <td colspan="2"><input type="submit"></td> 
+ </tr> 
+ </form> 
+ </table> 
+ </fieldset> 
+ </center> 
+</body> 
+</html> 
+Output:
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+3. Write down HTML/CSS code to create 3 paragraphs. First Paragraph in yellow 
+color, second in red and third in green color. Write down HTML/CSS code to create 
+table with 5 rows and 3 columns, even no. of rows display in green color and odd no. 
+of rows display in yellow color. 
+Task1: 
+<!DOCTYPE html> 
+<html> 
+ <head> 
+ <title>Prac-4 </title> 
+ </head> 
+<body bgcolor="skyblue"> 
+<p style="color:blue"> 
+The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. 
+Morpht has been developing Paragraph approaches to site building since 2015. This case study captures 
+some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be 
+done with Paragraphs 
+</p> 
+<p style="color:red"> 
+We have found Paragraphs and associated modules to be a very successful recipe. Our clients love the 
+plugability and extensibility of the system. if they need something new then we can build it. Oftentimes 
+they are happy with the standard Paragraph bundles we can provide with Paragraphs pack. We are therefore 
+continuing to build the ecosystem to support our own site building efforts. Bundles which have general 
+application will be released back into Paragraphs Pack. 
+</p> 
+<p style="color:green"> 
+We are also committed to ensuring a great developer experience. Our modules do not ship as features. You 
+won't need to worry about overrides with us. All the site buider needs to do is enable the modules, make the 
+required tweaks, if any, and capture the config in their own feature. 
+</p> 
+</body> 
+</html> 
+Output: 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+Task2:
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>Prac-4 </title> 
+</head> 
+<style> 
+ body { 
+ color: blue; 
+ font-size: 25px; 
+ } 
+ tr:nth-child(even) { 
+ background-color: green; 
+ } 
+ tr:nth-child(odd) { 
+ background-color: yellow; 
+ } 
+</style> 
+<body bgcolor="skyblue"> 
+ <table border=1 cellpadding=20px> 
+ <tr> 
+ <td> row 1 col 1 </td> 
+ <td> row 1 col 2 </td> 
+ <td> row 1 col 3 </td> 
+ </tr> 
+ <tr> 
+ <td> row 2 col 1 </td> 
+ <td> row 2 col 2 </td> 
+ <td> row 2 col 3 </td> 
+ </tr> 
+ <tr> 
+ <td> row 3 col 1 </td> 
+ <td> row 3 col 2 </td> 
+ <td> row 3 col 3 </td> 
+ </tr> 
+ <tr> 
+ <td> row 4 col 1 </td> 
+ <td> row 4 col 2 </td> 
+ <td> row 4 col 3 </td> 
+ </tr> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <tr> 
+ <td> row 5 col 1 </td> 
+ <td> row 5 col 2 </td> 
+ <td> row 5 col 3 </td> 
+ </tr> 
+ </table> 
+</body> 
+</html> 
+Output: 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+4. Implementation of JavaScript Function with arguments that returns a value. 
+a. Maximum number from arguments
+x=maximumNumber(12,25,650,410,120,300,960); 
+function maximumNumber() 
+{ 
+ let max=0; 
+ for(let i=0;i<=arguments.length;i++) 
+ { 
+ if(arguments[i]>max) 
+ { 
+ max=arguments[i]; 
+ } 
+ } 
+ console.log("maximum number is:",max) 
+} 
+Output: 
+maximum number is: 960 
+b. Sum of all numbers from an argument 
+function SumOfNumbers() 
+{ 
+ let sum=0; 
+ for(let i=0;i<arguments.length;i++) 
+ { 
+ sum=sum+arguments[i]; 
+ } 
+ console.log("Sum of all numbers are:",sum) 
+} 
+SumOfNumbers(12,25,650,410,120,300,960); 
+Output: 
+Sum of all numbers are: 2477 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+5. Implementation of JavaScript following methods. - Alert. - Confirm. - Prompt. 
+<html> 
+<head> 
+ <title>Alert and Confirm box</title> 
+</head> 
+<body bgcolor="blue"> 
+ <h1 style="color:white; font-size:100px; text-align: center;">Practical 5</h1> 
+ <script type="text/javascript"> 
+ mess1 = "press Ok to continue"; 
+ let math = "your maths mark is 75" 
+ x = confirm(math) 
+ if (x == true) { 
+ alert("you have pressed Ok button"); 
+ } 
+ else { 
+ alert("you have pressed cancel button"); 
+ } 
+ </script> 
+</body> 
+</html> 
+Output: 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+Learning Outcome:
+ 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+6. Write down java script code to validate user name and password. (Password length 
+must in between 6 to 12 characters. User name should not start with _, @, or any 
+number, both are not blank) 
+<html> 
+<head> 
+ <title>Form Validation</title> 
+ <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ margin: 0; 
+ padding: 0; 
+ background-color: whitesmoke; 
+ } 
+ h1 { 
+ text-align: center; 
+ } 
+ form { 
+ max-width: 400px; 
+ margin: 0 auto; 
+ } 
+ label { 
+ display: block; 
+ margin-bottom: 5px; 
+ } 
+ input[type="text"], 
+ input[type="text"] { 
+ width: 100%; 
+ padding: 10px; 
+ font-size: 16px; 
+ border-radius: 5px; 
+ border: 1px solid #ccc; 
+ box-sizing: border-box; 
+ margin-bottom: 10px; 
+ } 
+ input[type="submit"] { 
+ background-color: #4CAF50; 
+ color: white; 
+ padding: 10px 20px; 
+ width: 400px; 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ border: none; 
+ background-color: black; 
+ color: white; 
+ border-radius: 5px; 
+ cursor: pointer; 
+ } 
+ input[type="submit"]:hover { 
+ background-color: blue; 
+ color: white; 
+ } 
+ </style> 
+</head> 
+<body onload="document.form1.uname.focus()"> 
+ <h1>Validate Username and Password</h1> 
+ <br><br><br> 
+ <form name="form1" action="#"> 
+ Enter User Name:<input type="text" name="uname" id="uname"> 
+ <details> 
+ <summary>Usernme Rules</summary> 
+ <ul> 
+ <li>User name should not start with _, @, or any number</li> 
+ <li>both are not blank</li> 
+ </ul> 
+ </details> 
+ <br><br><br> 
+ Enter Password:<input type="text" name="upassword" id="upassword"> <br> 
+ <details id="msgforpwd"> 
+ <summary>Password Rules</summary> 
+ <ul> 
+ <li>Password length must in 
+ between 6 to 12 characters</li> 
+ <li>Password must contain at least one uppercase letter,</li> 
+ <li> one lowercase letter, one digit</li> 
+ <li>one special character (!, @, #, $, %, ^, &, *, or ?)</li> 
+ </ul> 
+ </details> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <br><br><br> 
+ <input type="submit" value="Login" onClick="checkUnamePassword()"> 
+ </form> 
+ <script> 
+ function checkUnamePassword() { 
+ let uname = document.getElementById("uname").value; 
+ let upassword = document.getElementById("upassword").value; 
+ let msgforpwd = document.getElementById("msgforpwd"); 
+ let validUname = /^[^_@0-9][a-zA-Z0-9]{0,11}$/; 
+ let validPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Zaz\d@$!%*?&]{8,}$/; 
+ if (!uname || !upassword) { 
+ alert('Username and password are required.'); 
+ return; 
+ } 
+ if (validUname.test(uname) && validPassword.test(upassword)) { 
+ alert("Correct username and password!"); 
+ } else { 
+ 
+ alert("Wrong username or password!"); 
+ } 
+ } 
+ </script> 
+</body> 
+</html> 
+Output: 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+7. Write down java script code to validate E mail address and to check check mobile  
+number (mobile number should start with 8 or 9). 
+<!DOCTYPE html> 
+<html lang="en"> 
+ <head> 
+ <meta charset="UTF-8" /> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+ <title>Validate Email and Contact number</title> 
+ <style> 
+ body { 
+ justify-content: center; 
+ display: flex; 
+ flex-flow: column; 
+ justify-items: center; 
+ } 
+ h1 { 
+ text-align: center; 
+ } 
+ form { 
+ display: flex; 
+ align-self: center; 
+ justify-items: center; 
+ font-weight: bold; 
+ display: flex; 
+ } 
+ input { 
+ font-size: medium; 
+ font-weight: bold; 
+ width: 460px; 
+ height: 30px; 
+ } 
+ tr, 
+ td { 
+ padding: 20px; 
+ } 
+ button { 
+ display: flex; 
+ position: relative; 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ left: 150px; 
+ background-color: green; 
+ color: white; 
+ font-weight: 600; 
+ padding: 10px; 
+ width: 130px; 
+ text-align: center; 
+ justify-content: center; 
+ } 
+ </style> 
+ </head> 
+ <body> 
+ <h1>Registration Page</h1> 
+ <form action="#" method="get"> 
+ <table> 
+ <tr> 
+ <td>First Name</td> 
+ <td> 
+ <input 
+ type="text" 
+ name="fname" 
+ placeholder="enter your first name" 
+ required 
+ /> 
+ </td> 
+ </tr> 
+ <tr> 
+ <td>Last Name</td> 
+ <td> 
+ <input 
+ type="text" 
+ name="lname" 
+ placeholder="enter your last name" 
+ required 
+ /> 
+ </td> 
+ </tr> 
+ <tr> 
+ <td>Email Id</td> 
+ <td> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ <input 
+ type="text" 
+ name="email" 
+ placeholder="enter your email address" 
+ id="email" 
+ /> 
+ </td> 
+ </tr> 
+ <tr> 
+ <td>Mobile No</td> 
+ <td> 
+ <input 
+ type="text" 
+ name="number" 
+ placeholder="enter your Contact number" 
+ id="number" 
+ /> 
+ </td> 
+ </tr> 
+ <tr> 
+ <td colspan="2"><button onclick="checkme()">Submit</button></td> 
+ </tr> 
+ </table> 
+ </form> 
+ <script> 
+ function checkme() { 
+ let number = document.getElementById("number").value; 
+ let email = document.getElementById("email").value; 
+ const validemail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/; 
+ const validNumber = /^[89]\d{9}$/; 
+ if (!number || !email) { 
+ alert("Please enter both email and number"); 
+ } else if (validNumber.test(number) && validemail.test(email)) { 
+ alert("Your registration is done"); 
+ } else { 
+ alert("Please check email and number and try again"); 
+ } 
+ } 
+ </script> 
+ </body> 
+Enrollment no: 210670107501 
+</html> 
+Output:
+Web Programming (3160713) Web Programming (3160713)
+Enrollment no: 210670107501 
+Web Programming (3160713) Web Programming (3160713)
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+8. Implementation of PHP Function with arguments that returns a value. 
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Function with argument</title> 
+</head> 
+<body> 
+<fieldset> 
+ <legend>Addition</legend> 
+<form action="demo.php" method="get"> 
+ Enter Number 1 :&nbsp;&nbsp;&nbsp;<input type="text" name="no1" 
+required> <br><br> 
+ Enter Number 2 :&nbsp;&nbsp;&nbsp;<input type="text" name="no2" 
+required> <br> 
+ <br><br><br> 
+ <input type="submit" value="Perform Addition"> 
+ </form> 
+ </fieldset> 
+ <br><br><br> 
+<?php 
+$number1=$_GET['no1']; 
+$number2=$_GET['no2']; 
+function calculateSum($num1, $num2) 
+{ 
+ $sum = $num1 + $num2; 
+ return $sum; 
+} 
+$result = calculateSum($number1, $number2); 
+ echo "The sum of $number1 and $number2 is: $result"; 
+ ?> 
+</body> 
+</html> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+Output: 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+9. Implementation of PHP code to demonstrate file uploads. 
+<?php 
+$target_dir = "uploads/"; 
+$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]); 
+$uploadOk = 1; 
+$imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION)); 
+if(isset($_POST["submit"])) { 
+ $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]); 
+ if($check !== false) { 
+ $uploadOk = 1; 
+ } else { 
+ $uploadOk = 0; 
+ } 
+} 
+if (file_exists($target_file)) { 
+ $uploadOk = 0; 
+} 
+if ($_FILES["fileToUpload"]["size"] > 500000) { 
+ $uploadOk = 0; 
+} 
+if($imageFileType != "jpg" && $imageFileType != "png") { 
+ $uploadOk = 0; 
+} 
+if ($uploadOk == 0) { 
+ echo "Sorry, your file was not uploaded."; 
+} else { 
+ if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) { 
+ echo "The file ". htmlspecialchars( basename( $_FILES["fileToUpload"]["name"])). " 
+has been uploaded."; 
+ } else { 
+ echo "Sorry, there was an error uploading your file."; 
+ } 
+} 
+?> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+OUTPUT: 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+10. Implementation of PHP code for creating a database and following database 
+queries. Select. Insert. Update. Delete. 
+ CREATE A DATABASE 
+<?php 
+$servername = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$conn = mysqli_connect($servername, $username, $password); 
+if (!$conn) { 
+ die("Connection failed: " . mysqli_connect_error()); 
+} 
+$dbname = "Vandan_WP_501"; 
+$result = mysqli_query($conn, "SHOW DATABASES LIKE '$dbname'"); 
+if (mysqli_num_rows($result) > 0) { 
+ echo "Database " . $dbname . " already exists"; 
+} else { 
+ // Create database 
+ $sql = "CREATE DATABASE $dbname"; 
+ if (mysqli_query($conn, $sql)) { 
+ echo "Database " . $dbname . " created successfully"; 
+ } else { 
+ echo "Error creating database: " . mysqli_error($conn); 
+ } 
+} 
+mysqli_close($conn); 
+?> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ CREATE A TABLE 
+<?php 
+$servername = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$dbname = "Vandan_WP_501"; 
+// Create connection 
+$conn = mysqli_connect($servername, $username, $password, $dbname); 
+// Check connection 
+if (!$conn) { 
+ die("Connection failed: " . mysqli_connect_error()); 
+} 
+$sql = "CREATE TABLE users( 
+ id INT(6) AUTO_INCREMENT PRIMARY KEY, 
+ name VARCHAR(30) NOT NULL, 
+ email VARCHAR(50), 
+ age INT(3) 
+)"; 
+if (mysqli_query($conn, $sql)) { 
+ echo "Table users created successfully"; 
+} else { 
+ echo "Error creating table: " . mysqli_error($conn); 
+} 
+mysqli_close($conn); 
+?>
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ INSERT DATA INTO TABLE 
+<?php 
+$servername = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$dbname = "Vandan_WP_501"; 
+$conn = mysqli_connect($servername, $username, $password, $dbname); 
+if (!$conn) { 
+ die("Connection failed: " . mysqli_connect_error()); 
+} 
+$sql = "INSERT INTO users (name, email, age) VALUES 
+ ('Vandan Raval', 'vandanraval2002@omail.ai', 21), 
+ ('Rushabh shah', 'rushabhshah504@gmail.com', 21), 
+ ('mit patel', 'mitpatel123@gmail.com', 24), 
+ ('Aditya shah', 'adityasha123@gmail.com', 21), 
+ ('ayush', 'ayush.brown@example.com', 23)"; 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+if (mysqli_query($conn, $sql)) { 
+ echo "Records inserted successfully"; 
+} else { 
+ echo "Error inserting records: " . mysqli_error($conn); 
+} 
+mysqli_close($conn); 
+?> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ UPDATE DATA 
+<?php 
+$servername = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$dbname = "Vandan_WP_501"; 
+$conn = mysqli_connect($servername, $username, $password, $dbname); 
+if (!$conn) { 
+ die("Connection failed: " . mysqli_connect_error()); 
+} 
+$sql = "UPDATE users set email='ayushpatel5356@gmail.com' where id=5"; 
+if (mysqli_query($conn, $sql)) { 
+ echo "Records Updated successfully"; 
+} else { 
+ echo "Error Updating records: " . mysqli_error($conn); 
+} 
+mysqli_close($conn); 
+?> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ Delete Record 
+<?php 
+$servername = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$dbname = "Vandan_WP_501"; 
+$conn = mysqli_connect($servername, $username, $password, $dbname); 
+if (!$conn) { 
+ die("Connection failed: " . mysqli_connect_error()); 
+} 
+$sql = "Delete from users where id=4"; 
+if (mysqli_query($conn, $sql)) { 
+ echo "Records Deleted successfully"; 
+} else { 
+ echo "Error in deleting records: " . mysqli_error($conn); 
+} 
+mysqli_close($conn); 
+?> 
+Web Programming (3160713) 
+Enrollment no: 210670107501 
+ SELECT 
+<?php 
+$servername = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$dbname = "Vandan_WP_501"; 
+$conn = mysqli_connect($servername, $username, $password, $dbname); 
+if (!$conn) { 
+ die("Connection failed: " . mysqli_connect_error()); 
+} 
+$sql = "SELECT * FROM users"; 
+$result = mysqli_query($conn, $sql); 
+if (mysqli_num_rows($result) > 0) { 
+ echo "<table border=1>"; 
+ echo "<tr><th>ID</th><th>Name</th><th>Email</th><th>Age</th></tr>"; 
+ while ($row = mysqli_fetch_assoc($result)) { 
+ echo "<tr><td>" . $row["id"] . "</td><td>" . $row["name"] . "</td><td>" . 
+$row["email"] . "</td><td>" . $row["age"] . "</td></tr>"; 
+ } 
+ echo "</table>"; 
+} else { 
+ echo "No records found"; 
+} 
+mysqli_close($conn); 
+?> 
+OUTPUT: 
